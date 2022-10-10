@@ -1,9 +1,10 @@
+import Button from '@mui/material/Button';
 import React from 'react';
 import './App.scss';
 
 function App() {
   return (
-    <h1>Hello world</h1>
+    <Button variant="contained">Hello World</Button>
   );
 }
 
