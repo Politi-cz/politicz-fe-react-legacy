@@ -7,3 +7,10 @@ test('Hello world button is on page', () => {
   const button = screen.getByRole('button');
   expect(button).toBeInTheDocument();
 });
+
+test('Button contains Hello world! text', () => {
+  render(<App />);
+
+  const button = screen.getByRole('button');
+  expect(button).toHaveTextContent(/hello world!/i);
+});
