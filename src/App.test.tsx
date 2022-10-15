@@ -5,5 +5,5 @@ import App from './App';
 test('renders learn react link', () => {
   render(<App />);
   const button = screen.getByRole('button');
-  expect(button).toBeInTheDocument();
+  expect(button).not.toBeInTheDocument();
 });
