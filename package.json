@@ -1,5 +1,6 @@
 {
   "name": "politicz-fe",
+  "homepage": "https://kollermartin.github.io/politicz-fe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
