@@ -1,9 +1,6 @@
 name: Build and Test branch
 
 on:
-  push:
-    branches:
-      - 'feature/**'
   pull_request:
     branches: [master]  
 
