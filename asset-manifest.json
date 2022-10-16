@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/politicz-fe/static/css/main.9a292658.css",
-    "main.js": "/politicz-fe/static/js/main.1f36b4c9.js",
+    "main.js": "/politicz-fe/static/js/main.74fd9a00.js",
     "static/media/roboto-all-500-normal.woff": "/politicz-fe/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/politicz-fe/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/politicz-fe/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -35,11 +35,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/politicz-fe/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/politicz-fe/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/politicz-fe/index.html",
+    "static/media/getFetch.cjs": "/politicz-fe/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.9a292658.css.map": "/politicz-fe/static/css/main.9a292658.css.map",
-    "main.1f36b4c9.js.map": "/politicz-fe/static/js/main.1f36b4c9.js.map"
+    "main.74fd9a00.js.map": "/politicz-fe/static/js/main.74fd9a00.js.map"
   },
   "entrypoints": [
     "static/css/main.9a292658.css",
-    "static/js/main.1f36b4c9.js"
+    "static/js/main.74fd9a00.js"
   ]
 }
