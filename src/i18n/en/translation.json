@@ -1,4 +1,7 @@
 {
   "welcome": "Welcome to politicz",
-  "hello_world": "Hello world!"
+  "hello_world": "Hello world!",
+  "nav-item_main": "Home",
+  "menu_settings_profile": "Profile",
+  "menu_settings_logout": "Logout"
 }

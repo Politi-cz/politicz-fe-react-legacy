@@ -1,4 +1,7 @@
 {
   "welcome": "Vítejte na politicz",
-  "hello_world": "Ahoj světe!"
+  "hello_world": "Ahoj světe!",
+  "nav-item_main": "Hlavní stránka",
+  "menu_settings_profile": "Profil",
+  "menu_settings_logout": "Odhlásit se"
 }
