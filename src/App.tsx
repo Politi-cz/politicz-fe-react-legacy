@@ -1,8 +1,9 @@
 import Button from '@mui/material/Button';
 import {} from '@mui/material/colors';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.scss';
+import { useTranslation } from 'react-i18next';
 import { Navbar } from './components/Navbar';
 
 function App() {
