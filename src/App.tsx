@@ -1,8 +1,7 @@
-import {} from '@mui/material/colors';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import React from 'react';
 import './App.scss';
-import { Navbar } from './components/Navbar';
+import { Navbar } from './components/Navbar/Navbar';
 
 function App() {
   const theme = createTheme({
