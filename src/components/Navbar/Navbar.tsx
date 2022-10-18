@@ -45,8 +45,8 @@ export function Navbar() {
           </Tabs>
           <div className={styles.flag}>
             <div className={classNames(styles.color, styles.colorWhite)}></div>
-            <div className={classNames(styles.color, styles.colorBlue)}></div>
             <div className={classNames(styles.color, styles.colorRed)}></div>
+            <div className={classNames(styles.color, styles.colorBlue)}></div>
           </div>
           <Button onClick={handeSettingsMenuClick} size="large" color="secondary" endIcon={<AccountCircle />}>
             Pepík
