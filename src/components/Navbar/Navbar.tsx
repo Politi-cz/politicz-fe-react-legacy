@@ -30,7 +30,7 @@ export function Navbar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar>
+      <AppBar data-testid="topNavigation">
         <Toolbar sx={{ flexDirection: 'row', alignItems: 'stretch', justifyContent: 'stretch', position: 'relative' }}>
           <IconButton size="large" edge="start" color="secondary" aria-label="menu" sx={{ mr: 2 }}>
             <MenuIcon />
@@ -41,7 +41,7 @@ export function Navbar() {
             value={tabs}
             onChange={handleTabChange}
             sx={{ flexGrow: 1 }}>
-            <Tab icon={<HomeIcon />} iconPosition="start" label={t('nav-item_main')} />
+            <Tab data-testid="homeTab" icon={<HomeIcon />} iconPosition="start" label={t('nav-item_main')} />
           </Tabs>
           <div className={styles.flag}>
             <div className={classNames(styles.color, styles.colorWhite)}></div>
